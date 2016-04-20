@@ -9,7 +9,7 @@
     "defaultMemory": 512,
     "description": "Use the DataCache Service and 'Liberty for Java™' runtime.",
     "type": "web",
-    "version": "0.0",
+    "version": "1.0",
     "smallIcon": "javaweb_datacache_icon.png",
     "icon": "javaweb_datacache_icon.png",
     "largeIcon": "javaweb_datacache_icon.png",
