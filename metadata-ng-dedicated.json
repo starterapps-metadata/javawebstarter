@@ -1,0 +1,70 @@
+{
+    "name": "Java Cache Web Starter (Dedicated)",
+    "services": [
+	{
+            "name": "DataCache-dedicated",
+            "choices": ["free"]
+        }
+    ],
+    "defaultMemory": 512,
+    "description": "Use the DataCache Service and 'Liberty for Java™' runtime.",
+    "type": "web",
+    "version": "0.0",
+    "smallIcon": "javaweb_datacache_icon.png",
+    "icon": "javaweb_datacache_icon.png",
+    "largeIcon": "javaweb_datacache_icon.png",
+    "featuredIcon": "javaweb_datacache_icon.png",
+    "marqueeIcon": "javaweb_datacache_marquee.png",
+    "headingIcon": "javaweb_datacache_heading.png",
+    "executableFile": "JavaCacheApp.war",
+    "source": {
+        "scmType": "git",
+        "url": "https://github.com/IBM-Bluemix/java-datacache.git",
+        "appPath": ""
+    },
+    "docURL": "/#starters/javawebstarter/index.html#javawebstarter",
+    "system_tags": ["ibm_created"],
+    "runtime_id": "d70d427c-eb92-43a7-a3fa-67e9885ad044",
+    "categories": ["boilerplate"],
+    "runtime_template_id": "javaHelloWorld",
+	"extra" : {
+		"i18n" : {
+			"de" : {
+				"name": "Java Cache Web Starter",
+				"description": "Diese Beispielanwendung veranschaulicht die Verwendung der nativen IBM DataCache-Service-Java-API mit der Java-Weblaufzeit unter IBM Cloud."
+			},
+			"es" : {
+				"name": "Java Cache Web Starter",
+				"description": "Esta aplicación de ejemplo muestra cómo utilizar la API nativa de IBM DataCache Service Java con el tiempo de ejecución de Java Web en IBM Cloud."
+			},
+			"fr" : {
+				"name": "Java Cache Web Starter",
+				"description": "Ce modèle d'application explique comment utiliser l'API native Java du service IBM Data Cache avec le contexte d'exécution Web Java dans le cloud IBM."
+			},
+			"it" : {
+				"name": "Java Cache Web Starter",
+				"description": "Questa applicazione di esempio mostra come utilizzare l'API nativa Java del servizio IBM DataCache con il runtime Web Java su IBM Cloud."
+			},
+			"ja" : {
+				"name": "Java Cache Web Starter",
+				"description": "このサンプル・アプリケーションでは、IBM DataCache Service Java Native API と Java Web ランタイムを IBM Cloud で使用する方法を示します。"
+			},
+			"pt-BR" : {
+				"name": "Java Cache Web Starter",
+				"description": "Este aplicativo de amostra demonstra como usar a API Nativa do Java do serviço IBM DataCache com o tempo de execução Java Web no IBM Cloud."
+			},
+			"zh-Hans" : {
+				"name": "Java Cache Web Starter",
+				"description": "此样本应用程序演示如何使用 IBM DataCache Service Java 本地 API（IBM Cloud 上具有 Java Web 运行时）。"
+			},
+			"zh-Hant" : {
+				"name": "Java Cache Web Starter",
+				"description": "這個範例應用程式示範如何使用 IBM DataCache Service Java 原生 API 搭配 IBM Cloud 上的 Java Web 執行時期。"
+			},
+			"ko": {
+				"name": "Java Cache Web Starter",
+				"description": "이 샘플 애플리케이션에서는 IBM Cloud의 Java 웹 런타임을 포함하는 IBM DataCache 서비스 Java Native API를 사용하는 방법을 보여줍니다. "
+			}
+		}
+	}
+}
